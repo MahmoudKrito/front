@@ -1,0 +1,566 @@
+.owl-carousel{
+    direction: ltr;
+}
+.owl-carousel .item{
+    direction: rtl;
+}
+.timepicker{
+    direction: ltr;
+}
+.modal-dialog {
+    text-align: right;
+}
+.navbar-brand {
+    float: left;
+}
+.navbar-toggle {
+    float: right;
+    margin-right: 15px;
+    margin-left: auto;
+}
+@media (min-width: 768px){
+    .navbar-header {
+        float: left;
+    }
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: -15px;
+        margin-right: initial;
+    }
+}
+.navbar-right{
+    margin-left: 30px;
+    margin-right: inherit;
+}
+
+.login-wrapper .login-form:after{
+    right: 20px;
+    left: auto;
+}
+.login-form .form-group .input-group .input-group-addon{
+    padding-right: 0;
+    padding-left: 6px;
+    text-align: right;
+}
+.login-form .form-group .input-group .input-group-addon i{
+    text-align: right;
+}
+.popover{
+    left: auto !important;
+    right: 0 !important;
+}
+.popover.right {
+    margin-left: 0 !important;
+    margin-right: 30px !important;
+}
+.popover.right>.arrow {
+    left: auto !important;
+    right: -11px !important;
+    border-left-width: 11px;
+    border-right-width: 0;
+}
+.popover.right>.arrow:after {
+    left: auto !important;
+    right: 1px !important;
+    border-right-width: 0;
+    border-left-width: 11px;
+}
+.login-form .form-group .new-register a{
+    margin-right: 30px;
+    margin-left: 0;
+}
+.login-form .form-group .bullets{
+    left: 20%;
+    right: auto;
+}
+.login-side:after{
+    left: -10%;
+    right: auto;
+    background: url("../images/Group2075.svg") center no-repeat;
+    background-size: contain;
+}
+.join-us:after{
+    left: 50px;
+    right: auto;
+}
+.custom-input{
+    padding-right: 30px;
+    padding-left: 0;
+}
+.arrow-animation{
+    transform: rotateY(0deg);
+}
+.intro-section .arrow-animation{
+    left: 14%;
+    right: auto;
+}
+@-webkit-keyframes arrow-1 {
+    0% {
+        left: 14%;
+        right: auto;
+        bottom: 44%;
+    }
+    45% {
+        transform: rotateY(0);
+    }
+    50% {
+        left: 100%;
+        right: auto;
+        bottom: -300px;
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        left: 52%;
+        right: auto;
+        bottom: -500px;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes arrow-1 {
+    0% {
+        left: 14%;
+        right: auto;
+        bottom: 44%;
+    }
+    45% {
+        transform: rotateY(0);
+    }
+    50% {
+        left: 100%;
+        right: auto;
+        bottom: -300px;
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        left: 52%;
+        right: auto;
+        bottom: -500px;
+        transform: rotateY(180deg);
+    }
+}
+.about-wrapper .arrow-animation{
+    left: 52%;
+    right: auto;
+    transform: rotateY(180deg);
+}
+
+@-webkit-keyframes arrow-2 {
+    0% {
+        left: 52%;
+        right: auto;
+        top: 5%;
+    }
+    45% {
+        transform: rotateY(180deg);
+    }
+    50% {
+        left: -10%;
+        right: auto;
+        top: 500px;
+        transform: rotateY(90deg);
+    }
+    100% {
+        left: 10%;
+        right: auto;
+        top: 800px;
+        transform: rotateY(0deg);
+    }
+}
+@keyframes arrow-2 {
+    0% {
+        left: 52%;
+        right: auto;
+        top: 5%;
+    }
+    45% {
+        transform: rotateY(180deg);
+    }
+    50% {
+        left: -10%;
+        right: auto;
+        top: 500px;
+        transform: rotateY(90deg);
+    }
+    100% {
+        left: 10%;
+        right: auto;
+        top: 800px;
+        transform: rotateY(0deg);
+    }
+}
+
+.chooseUs-banner .arrow-animation {
+    left: 10%;
+    right: auto;
+}
+.intro-section:before{
+    left: 5%;
+    right: auto;
+    transform: rotateY(0deg);
+}
+.intro-section:after{
+    left: 7%;
+    right: auto;
+    background: url("../images/Group2075-2.svg") center no-repeat;
+    background-size: contain;
+}
+
+.intro-icon-2{
+    right: -20px;
+    left: auto;
+    transform: rotateY(0deg);
+}
+.about-wrapper.style-2 .arrow-animation,
+.about-wrapper.style-3 .arrow-animation {
+    left: -1%;
+    right: auto;
+    transform: rotateY(180deg);
+}
+.about-wrapper.style-2 .about-title:before,
+.about-wrapper.style-3 .about-title:before{
+    transform: rotateY(0deg);
+}
+.about-wrapper:before{
+    right: -75vw;
+    left: auto;
+    transform: rotateY(0deg)
+}
+.about-wrapper .logo,
+.video-section .logo{
+    text-align: left;
+}
+.about-wrapper.style-2 .logo .doctor-rating{
+    left: 200px;
+    right: auto;
+}
+.chooseUs-banner .chooseUs-title:before,
+.chooseUs-banner .chooseUs-title:after{
+    right: 0;
+    left: auto;
+}
+.chooseUs-banner .chooseUs-title:after{
+    right: auto;
+    left: 0;
+}
+.services-list li.service-item:nth-of-type(2) .service-title:before,
+.services-list li.service-item:nth-of-type(2) .service-title:after{
+    right: -165%;
+    left: auto;
+}
+.services-list li.service-item:nth-of-type(2) .service-title:after{
+    right: auto;
+    left: -165%;
+}
+.page-banner.sessions-banner:before{
+    left: 0;
+    right: auto;
+    transform: translateY(-50%) rotateY(0deg);
+}
+.page-banner.sessions-banner .page-banner-title:after{
+    right: 100%;
+    left: auto;
+    margin-right: 20px;
+    margin-left: 0;
+}
+.article-side .article-text {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.article-slider-item .article-slider-content .article-slider-text{
+    padding-right: 10px;
+    padding-left: 0;
+}
+.article-item.article-single .article-details .article-category{
+    margin-left: 20px;
+    margin-right: 0;
+}
+.consulting-item .consulting-content {
+    padding-left: 120px;
+    padding-right: 0;
+}
+.partner-item:after{
+    left: -1px;
+    right: auto;
+}
+.testimonial-wrapper:after{
+    left: 0;
+    right: auto;
+}
+.testimonial-item .testimonial-content{
+    margin-right: 20px;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 0;
+}
+.testimonial-slider .owl-dots{
+    left: -30px;
+    right: auto;
+}
+.subscription-wrapper .subscription-icon{
+    right: 80px;
+    left: auto;
+}
+.doctor-item .doctor-details .doctor-name{
+    padding-right: 20px;
+    padding-left: 0;
+}
+.doctor-item .doctor-details .doctor-name:before{
+    right: 0;
+    left: auto;
+}
+.doctor-filter .doctor-details .doctor-info .doctor-name{
+    padding-right: 20px;
+    padding-left: 0;
+}
+.doctor-single-wrapper .doctor-details{
+    padding: 20px 20px 70px 0;
+}
+.doctor-single-wrapper .doctor-details .doctor-name{
+    padding-right: 20px;
+    padding-left: 0;
+}
+.doctor-single-wrapper .doctor-details .doctor-name:before{
+    right: 0;
+    left: auto;
+}
+.doctor-single-wrapper .doctor-details .book-now{
+    right: 20px;
+    left: auto;
+}
+.doctor-single-wrapper .doctor-details .book-now:after{
+    left: 20px;
+    right: auto;
+}
+.doctor-tabs-wrapper .nav-tabs li a{
+    margin-left: 25px;
+    margin-right: 0;
+}
+.rating-wrapper .rating > label {
+    float: left;
+}
+.booking-wrapper .booking-title img{
+    margin-right: 10px;
+    margin-left: 0;
+}
+.session-price-list li span.session-time,
+.session-price-list li span.session-price{
+    margin-right: 5px;
+    margin-left: 0;
+}
+.hello-week .navigation .period {
+    padding-left: 15px;
+    padding-right: 0;
+}
+.hello-week .month .day {
+    border-left: 1px solid #eee;
+    border-right: none;
+}
+.consulting-item .btn-consulting{
+    left: 0;
+    right: auto;
+}
+.consulting-answer{
+    padding-right: 20px;
+    padding-left: 0;
+}
+.form-student:after{
+    left: 30px;
+    right: auto;
+}
+.profile-wrapper .profile-content .profile-header:after{
+    right: auto;
+    left: -10px;
+}
+.user-wrapper{
+    background: linear-gradient(to left , #2b3988 0%, #2bb788 100%);
+    border-left: 4px solid #E4E5FB;
+    border-right: none;
+    border-radius: 0 50px 50px 0;
+    text-align: right;
+}
+.user-wrapper .user-details{
+    text-align: right;
+}
+.booking-item .doctor-booking .doctor-img{
+    margin-right: 0;
+    margin-left: 15px;
+}
+.booking-item .doctor-booking .doctor-details .doctor-name{
+    padding-right: 20px;
+    padding-left: 0;
+}
+.booking-item .doctor-booking .doctor-details .doctor-name:before{
+    left: auto;
+    right: 0;
+}
+.booking-item span.booking-status{
+    margin-right: 0;
+    margin-left: 5px;
+}
+/**/
+.footer-shape-1{
+    right: 10%;
+    left: auto;
+    transform: translateY(-100%) rotateY(0deg);
+}
+.footer-shape-2{
+    right: 11%;
+    left: auto;
+    transform: translateY(-115%) rotateY(0deg);
+}
+.footer-shape-3{
+    left: 25%;
+    right: auto;
+}
+.footer-shape-4{
+    left: 5%;
+    right: auto;
+    transform: translateY(-68%) rotateY(0deg);
+}
+.footer-shape-5  {
+    right: 15%;
+    left: auto;
+}
+.footer-shape-5 .arrow-animation {
+    left: 0;
+    right: auto;
+    transform: rotateY(180deg);
+}
+@media screen and (max-width: 1199px){
+    .doctor-single-wrapper .doctor-details .book-now {
+        left: auto;
+        right: auto;
+    }
+    .services-list li.service-item:nth-of-type(2) .service-title:before,
+    .services-list li.service-item:nth-of-type(2) .service-title:after{
+        right: -120%;
+        left: auto;
+    }
+    .services-list li.service-item:nth-of-type(2) .service-title:after{
+        right: auto;
+        left: -120%;
+    }
+}
+@media screen and (max-width: 991px){
+    .login-wrapper .login-form:before {
+        left: 30px;
+        right: auto;
+    }
+    .intro-icon-2 {
+        right: -10px;
+        left: auto;
+    }
+    .intro-promental{
+        left: 0;
+        right: auto;
+    }
+    .about-wrapper .about-title{
+        background: url("../images/RepeatGrid1.svg") center no-repeat;
+        background-size: contain;
+    }
+    .footer-shape-1{
+        right: 10%;
+        left: auto;
+        transform: translateY(-100%) rotateY(0deg);
+    }
+    .footer-shape-2{
+        right: 11%;
+        left: auto;
+        transform: translateY(-115%)  rotateY(0deg);
+    }
+    .footer-shape-4{
+        left: 5%;
+        right: auto;
+        transform: translateY(-68%)  rotateY(0deg);
+    }
+}
+@media screen and (max-width: 767px){
+    .navbar-nav > li > a {
+        padding-right: 60px;
+        padding-left: 0;
+    }
+    .navbar-nav > li > a img{
+        right: 20px;
+        left: auto;
+    }
+    .lang-link a:before {
+        right: 25px;
+        left: auto;
+    }
+    .login-form .form-group .bullets {
+        left: 5%;
+        right: auto;
+    }
+    .article-slider-item .article-slider-content .article-slider-text {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .consulting-wrapper .btn-consulting {
+        left: 0;
+        right: auto;
+    }
+    .consulting-item .consulting-content {
+        padding-left:0;
+        padding-right: 0;
+    }
+    .consulting-answer {
+        padding-right: 50px;
+        padding-left: 0;
+    }
+    .consulting-answer .btn-main{
+        left: 0;
+        right: auto;
+    }
+    .doctor-tabs-wrapper .nav-tabs li a {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .testimonial-item .testimonial-content {
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-contents:after{
+        clip-path: polygon(100% 100%, 0 0, 100% 0);
+    }
+    .footer-shape-2 {
+        right: -2%;
+        left: auto;
+        transform: translateY(0) rotateY(0deg);
+    }
+    .footer-shape-4 {
+        transform: translateY(-50%) rotateY(0deg);
+    }
+    .user-wrapper{
+        background: linear-gradient(to right , #2b3988 0%, #2bb788 100%);
+        border-radius: 50px 0 0 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .login-wrapper .login-form:before{
+        left: 15px;
+        right: auto;
+    }
+}
+.page-banner:before{
+    background: linear-gradient( to left , #2b3988 0%, rgba(43, 183, 136, 0.1) 100%);
+}
+.page-banner:after{
+    background: linear-gradient( to left , #2b3988 0%, #2bb788 100%);
+}
+.page-banner.sessions-banner{
+    background: linear-gradient( to left , #2b3988 0%, #2bb788 100%);
+}
+.partner-item:after{
+    background: linear-gradient( to left , #2b3988 0%, #2bb788 100%);
+}
+.hello-week .navigation {
+    background: linear-gradient(to right , #2b3988 0%, #2bb788 100%);
+}
+
+.dropdown-menu>li>a {
+  text-align: right !important;
+}

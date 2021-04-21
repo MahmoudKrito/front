@@ -1,0 +1,259 @@
+.main-wrapper .content-wrapper {
+    margin-left: 0;
+    margin-right: auto;
+}
+.main-wrapper .content-wrapper:after {
+    right: auto;
+    left: 0;
+}
+.dark-mode .main-wrapper .content-wrapper:before {
+    right: auto;
+    left: 0;
+}
+.main-wrapper .side-wrapper:before {
+    left: auto;
+    right: 20px;
+}
+.main-wrapper .side-logo {
+    right: auto;
+    left: 20px;
+}
+ul.side-menu li.active:after{
+    right: auto;
+    left: -2px;
+}
+ul.side-menu li a span{
+    left: auto;
+    right: -100px;
+}
+.openMenu ul.side-menu li a span{
+    left: auto;
+    right: 60px;
+}
+/*============ Header ============*/
+.navbar{
+    background: linear-gradient( to left , #2bb788, #2b3988);
+    left: auto;
+    right: 60px;
+}
+.see-all-sessions{
+    background: linear-gradient(to left, #2b3988 0%, #2bb788 100%);
+}
+.dark-mode .navbar:after{
+    background: linear-gradient(to right , rgba(0, 233, 41, 0.2) 0%, rgba(42, 255, 62, 0) 100%);
+}
+.openMenu .navbar{
+    left: auto;
+    right: 250px;
+}
+.search-group .form-control{
+    padding-right: 12px;
+    padding-left: 30px;
+}
+.search-group .input-group-addon{
+    right: auto;
+    left: 10px;
+}
+.switch-mode .slider:before {
+    left: auto !important;
+    right: 4px !important;
+}
+.switch-mode .slider:after {
+    left: auto !important;
+    right: 10px !important;
+}
+.switch-mode input:checked + .slider:before {
+    -webkit-transform: translateX(-26px) !important;
+    -ms-transform: translateX(-26px) !important;
+    transform: translateX(-26px) !important;
+}
+.switch-mode input:checked + .slider:after {
+    transform: translateX(-28px) translateY(-50%) !important;
+}
+.navbar-nav>li.dropdown-notifications > a .badge{
+    right: auto;
+    left: 4px;
+}
+.notification{
+    padding: 0 30px 0 10px ;
+}
+.notification:before{
+    left: auto;
+    right: 4px;
+}
+.notification .notification-time {
+    text-align: left;
+}
+.main-content .content-side {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.section-custom:after{
+    left: auto;
+    right: 0;
+}
+.subscription-wrapper .subscription-info{
+    text-align: left;
+}
+.box-wrapper .box-circle .circle-border .circle-percentage {
+    left: auto;
+    right: 5px;
+}
+.box-wrapper .box-circle .circle-border .circle-percentage .percentage {
+    left: auto;
+    right: 0;
+}
+.box-wrapper .box-title i{
+    margin-right: 0;
+    margin-left: 4px;
+}
+.next-session-btn:after{
+    left: auto;
+    right: 0;
+    background: linear-gradient( to left, #2B3988, #2BB788) !important;
+}
+.next-session-btn img, .end-session-btn img{
+    right: auto;
+    left: 20px;
+}
+.rating > label {
+    float: left;
+}
+.school-permission span{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.student-row .student-edit{
+    right: auto;
+    left: 0;
+}
+.bootstrap-tagsinput .tag {
+    margin-right: 0;
+    margin-left: 2px;
+}
+.doctor-wrapper .doctor-img {
+    left: auto;
+    right: 0;
+}
+.doctor-wrapper .doctor-details{
+    padding: 5px 40px 5px 10px;
+}
+.doctor-wrapper.doctor-single .doctor-details{
+    margin-right: 40px;
+    margin-left: 0;
+}
+.doctor-wrapper .view-doctor{
+    right: auto;
+    left: 0;
+}
+.session-header .start-video{
+    background: linear-gradient(to right , rgb(43, 57, 136) 0%, rgb(43, 183, 136) 100%);
+}
+.session-header .start-video:after{
+    left: auto;
+    right: 0;
+    background: linear-gradient( to left, #2B3988, #2BB788) !important;
+}
+.reservations-wrapper .dates-wrapper{
+    margin-left: 0;
+    margin-right: 30px;
+}
+.hello-week .navigation .period {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.selected-day img{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.doctor-wrapper.doctor-single .nav-tabs{
+    background: #EDEDED linear-gradient(to right , rgba(43, 57, 136, 0.3) 0%, rgba(43, 183, 136, 0.3) 100%);
+}
+.dark-mode .doctor-wrapper.doctor-single .nav-tabs{
+    background: #285E75 linear-gradient(to right , rgba(43, 57, 136, 0.3) 0%, rgba(43, 183, 136, 0.3) 100%);
+}
+/*================== Responsive ================*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .reservations-wrapper .dates-wrapper {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 1199px){
+    .reservation-row .reservation-edit{
+        right: auto;
+        left: 0;
+    }
+    .reservation-row .student-details{
+        padding-right: 0;
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 991px){
+    .main-content .content-side {
+        margin-right: auto;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 767px){
+    .openMenu .navbar{
+        left: auto;
+        right: 0;
+    }
+    .navbar {
+        left: auto;
+        right: 0;
+    }
+    .toggle-menu{
+        right: auto;
+        left: 20px;
+    }
+    .navbar .navbar-collapse.collapse > .nav.navbar-nav {
+        right: auto;
+        left: 10px;
+    }
+    .navbar .dropdown-menu {
+        left: 0 !important;
+        right: auto !important;
+    }
+    .switch-mode {
+        left: auto;
+        right: 10px;
+    }
+    .search-group {
+        left: auto;
+        right: 80px;
+    }
+    .search-group .input-group-addon {
+        right: auto;
+        left: 20px;
+    }
+    .dropdown-notifications{
+        right: auto;
+        left: 0;
+    }
+    .dropdown-user{
+        right: auto;
+        left: 40px;
+    }
+    .student-row .student-wrapper .student-block .student-profile {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .student-row .student-edit {
+        right: auto !important;
+        left: 0 !important;
+    }
+    .sessions-wrapper .sessions-row .session-date{
+        text-align: left;
+    }
+    .reservations-wrapper .dates-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .date-row .reservation-status i, .date-row .reservation-status img{
+        margin-right: 0;
+        margin-left: 4px;
+    }
+}
